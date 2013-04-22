@@ -1,0 +1,96 @@
+@font-face {
+	font-family: 'Press Start 2P';
+	font-style: normal;
+	font-weight: 400;
+	src: url("Press Start 2P.woff");
+}
+
+body{
+	background-color: #000;
+	margin: 0px;
+	position: absolute;
+	width: 320px;
+	height: 480px;
+	font-family: "Press Start 2P";
+}
+#falldown-container{
+    height: 268px;
+    width: 320px;
+    background-color: yellow;
+    position: absolute;
+    top: 116px;
+}
+#loading{
+	position: absolute;
+	width: 100%;
+	top: 40%;
+}
+#splash{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	color: white;
+	text-shadow: 0px 1px 1px red;
+	text-align: center;
+}
+#container{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	text-align: center;
+}
+#scoreboard{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	color: white;
+	padding: 5px;
+	text-shadow: 0px 1px 1px red;
+}
+#announce{
+	position:absolute;
+	top: 5px;
+	left: 40px;
+	color: white;
+	padding: 5px;
+	font-size: 20pt;
+	text-shadow: 0px 1px 1px red;
+}
+.Item{
+	position: absolute;
+	top: 5px;
+	width: 25px;
+	z-index: 5;
+	opacity: 0;
+}
+#game{
+	width: 320px;
+	height: 198px;
+}
+#controls{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 70px;
+	background-color: #555;
+	text-align: center;
+}
+.control{
+	width: 70px;
+	height: 39px;
+	padding-top: 30px;
+	background-color: black;
+	border-top: 1px solid #555;
+	color: white;
+	text-align: center;
+}
+#controls .down{
+	background-color: #555;
+	color: red;
+}
+@-webkit-keyframes Fade{
+	0%   {opacity: 1}
+	100%   {opacity: 0}
+}
